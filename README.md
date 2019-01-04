@@ -11,7 +11,7 @@
 _______________________________________________________________________________
 ### Problems:
 
-#### Team Task: 
+#### A. Team Task: 
 
 **Problem 1.**
    Implement and compare the running times of the following algorithms on 
@@ -67,7 +67,7 @@ NOTE:
 - The threshold values were T2 = 99 and T3 = 99, as we computed above results. Later on, we found the optimal threshold values, which can be seen in the [report](https://github.com/rahul1947/SP09-Divide-and-Conquer/blob/master/sp9.pdf). 
 
 
-#### Optional Task (individual): 
+#### B. Optional Task (individual): 
 
 **Problem 2.**
    Use BigInteger class and write programs to computer f(n), the nth Fibonacci number.
