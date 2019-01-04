@@ -3,26 +3,35 @@ package rsn170330.sp09;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * CS 5V81.001: Implementation of Data Structures and Algorithms 
+ * Short Project SP09: Divide and Conquer
+ * Team SP43:
+ * @author Rahul Nalawade (rsn170330)
+ * @author Arunachalam Saravanan (axs170081)
+ * 
+ * Date: November 04, 2018
+ */
 public class SP9 {
 	public static Random random = new Random();
 	public static int numTrials = 100;
 	
-	public final static int T2 = 99;
-	public final static int T3 = 99;
+	public final static int T2 = 89;
+	public final static int T3 = 75;
 	
 	public static void main(String[] args) {
 		int Million = 1000000;
 		int n = Million;
 		int choice = 1 + random.nextInt(4);
 		choice = 3;
-		/*
+		
 		if (args.length > 0) {
 			n = Integer.parseInt(args[0]);
 		}
 		if (args.length > 1) {
 			choice = Integer.parseInt(args[1]);
 		}
-		*/
+		
 		int[] arr = new int[n];
 		for (int i = 0; i < n; i++) {
 			arr[i] = i;
@@ -135,7 +144,7 @@ public class SP9 {
 		}
 	}
 	
-	// pre: a[p..r] and a[q+1..r] are in srted order
+	// pre: a[p..r] and a[q+1..r] are in sorted order
 	private static void merge2(int[] a, int[] b, int p, int q, int r) {
 		// merge a[p..q] and a[q+1..r] into a[p..r] in sorted order
 		// use b for temporary storage
@@ -198,7 +207,6 @@ public class SP9 {
 	 * @author rbk Usage: Timer timer = new Timer(); timer.start(); timer.end();
 	 *         System.out.println(timer); // output statistics
 	 */
-
 	public static class Timer {
 		long startTime, endTime, elapsedTime, memAvailable, memUsed;
 		boolean ready;
@@ -250,10 +258,9 @@ public class SP9 {
 	}
 
 	/**
-	 * @author rbk : based on algorithm described in a book
+	 * Shuffle the elements of an array arr[from..to] randomly
+	 * @author rbk : based on algorithm described in CLRS book
 	 */
-
-	/* Shuffle the elements of an array arr[from..to] randomly */
 	public static class Shuffle {
 
 		public static void shuffle(int[] arr) {
