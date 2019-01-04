@@ -1,15 +1,15 @@
-# SP09-Divide-and-Conquer
+## Short Project SP09: Divide and Conquer
 1. Implementation of divide and conquer algorithm to sort an array of integers - Merge Sort (take1, take2, take3). 
 2. O(n) vs O(log n) algorithms for Fibonacci Term using BigInteger Java library, and their comparison. 
 
-### Author
+#### Author
 * [Rahul Nalawade](https://github.com/rahul1947)
 
-### Date
+#### Date
 * Nov 04, 2018
 
 _______________________________________________________________________________
-## Problems:
+### Problems:
 
 #### Team Task: 
 
