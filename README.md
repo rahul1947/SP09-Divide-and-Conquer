@@ -60,9 +60,11 @@ _______________________________________________________________________________
 
 NOTE:
 - OME: Out of Memory Error
-- For insertionSort(), with n = 1 Million, we got Time = 349689, which is far more than 2 minutes limit. So, it is considered to be Infinite. And for rest of the input values, it is even more than the above value, hence considered Infinite as well.
-- Due to longer execution time for insertionSort(), *numTrials = 5* was set. And for rest of the mergeSort() versions we had *numTrials = 100*.
-- The threshold values were T2 = 99, T3 = 99 as we computed above results. Later on, we found the optimal value for both the threshold values, which can be seen in the [report](https://github.com/rahul1947/SP09-Divide-and-Conquer/blob/master/sp9.pdf). 
+- For insertionSort(), with n = 1 Million, we got Time = 349689 msec, which is far more than 2 minutes as time limit. So, it is considered to be Infinite. And for rest of the input values, it is even more than the limit, hence they were considered Infinite as well. 
+- Due to longer execution time for insertionSort(), *numTrials = 5* was set for it. And for rest of the mergeSort() versions we had *numTrials = 100*.
+- Existing Processor: **Intel® Core™ i5-8250U CPU @ 1.60GHz × 8**. 
+  Memory: **7.5 GiB**
+- The threshold values were T2 = 99 and T3 = 99, as we computed above results. Later on, we found the optimal threshold values, which can be seen in the [report](https://github.com/rahul1947/SP09-Divide-and-Conquer/blob/master/sp9.pdf). 
 
 
 #### Optional Task (individual): 
