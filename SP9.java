@@ -313,3 +313,21 @@ public class SP9 {
 		}
 	}
 }
+
+Algorithm MergeSort(low,high)
+a[low:high] is a global array to be sorted .
+	//small(P) is true if there is only one element to sort.In this, array is already sorted.
+{
+	if(love<high) then 
+	{
+		//Divide P into Subproblems 
+		//Find where to split it
+		mid:=(low+high)/2;
+		//Solve all subproblems
+		MergeSort(low,mid);
+		MergeSort(mid+1,high);
+		//Combine solutions 
+		merge(low,mid,high)
+	}
+}
+
